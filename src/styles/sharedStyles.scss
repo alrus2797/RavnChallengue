@@ -1,0 +1,26 @@
+@use './variables';
+
+.sidebar-link{
+    text-decoration: none;
+    .sidebar-tab-title, .sidebar-tab-icon, .topbar-switcher-item{
+        color: variables.$neutral-2;
+    }
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+    }
+
+    &.active{
+        .sidebar-tab-title, .sidebar-tab-icon{
+            color: variables.$primary-1;
+        }
+
+        .sidebar-tab-rectangle{
+            background: variables.$primary-1;
+            opacity: 1;
+        }
+
+        .topbar-switcher-item{
+            border: 2px solid variables.$primary-1;
+        }
+    }
+}

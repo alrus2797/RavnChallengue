@@ -1,4 +1,5 @@
 import './Sidebar.scss';
+import '../../styles/sharedStyles.scss'
 import {ReactComponent as Logo} from '../../assets/logo.svg';
 
 import {ReactComponent as ListIcon} from '../../assets/icons/list.svg';

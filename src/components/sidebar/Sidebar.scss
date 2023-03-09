@@ -54,7 +54,7 @@
     &:hover{        
         background: linear-gradient(90deg, rgba(186, 37, 37, 0) 0%, rgba(210, 77, 77, 0.1) 100%);
         .sidebar-tab-title, .sidebar-tab-icon{
-            color: rgba(210, 77, 77);
+            color: variables.$primary-1;
         }
 
         // .sidebar-tab-rectangle{
@@ -86,7 +86,7 @@
     align-items: center;
     letter-spacing: 0.75px;
 
-    color: #94979A;
+    color: variables.$neutral-2;
 
     flex: none;
     order: 1;
@@ -97,7 +97,7 @@
     width: 4px;
     height: 56px;
 
-    background: #94979A;
+    background: variables.$neutral-2;
     opacity: 0;
 
     flex: none;
@@ -116,11 +116,11 @@
 
     &.active{
         .sidebar-tab-title, .sidebar-tab-icon{
-            color: rgba(210, 77, 77);
+            color: variables.$primary-1;
         }
 
         .sidebar-tab-rectangle{
-            background: rgba(210, 77, 77);
+            background: variables.$primary-1;
             opacity: 1;
         }
     }
