@@ -1,0 +1,48 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 0px;
+    gap: 29px;
+
+    position: absolute;
+    height: 48px;
+    left: 296px;
+    right: 36px;
+    top: 128px;
+}
+
+.topbar-switcher{
+    width: 80px;
+    height: 40px;
+
+    background: #222528;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.topbar-switcher-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-create-button{
+    width: 40px;
+    height: 40px;
+
+    background: #DA584B;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
