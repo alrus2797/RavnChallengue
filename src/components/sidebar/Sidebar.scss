@@ -105,23 +105,3 @@
     flex-grow: 0;
 }
 
-.sidebar-link{
-    text-decoration: none;
-    .sidebar-tab-title, .sidebar-tab-icon{
-        color: variables.$neutral-2;
-    }
-    &:focus, &:hover, &:visited, &:link, &:active {
-        text-decoration: none;
-    }
-
-    &.active{
-        .sidebar-tab-title, .sidebar-tab-icon{
-            color: variables.$primary-1;
-        }
-
-        .sidebar-tab-rectangle{
-            background: variables.$primary-1;
-            opacity: 1;
-        }
-    }
-}
