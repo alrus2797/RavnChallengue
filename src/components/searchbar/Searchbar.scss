@@ -1,0 +1,60 @@
+@use '../../styles/variables';
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 801px;
+
+    position: absolute;
+    height: 64px;
+    left: 296px;
+    right: 36px;
+    top: 32px;
+
+    /* neutral.4 */
+
+    background: variables.$searchbar-bg;
+    border-radius: 16px;
+}
+
+.searchbar-subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.search-label{
+    
+
+    /* neutral.2 */
+
+    color: variables.$neutral-2;
+}
+
+.search-input{
+    letter-spacing: 0.75px;
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    border: none;
+
+    color: variables.$neutral-2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.searchbar-notification{
+    align-self: center;
+
+    color: variables.$neutral-2;
+}
