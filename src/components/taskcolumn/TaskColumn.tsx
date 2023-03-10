@@ -7,7 +7,7 @@ export default function TaskColumn ({title, tasks} : TaskColumnProps) : JSX.Elem
     return (
         <div className="task-column">
             <div className="column-title">
-                {title}
+                {title} ({tasks.length})
             </div>
             {
                 tasks.map((task, index) => {
