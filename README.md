@@ -2,7 +2,9 @@
 
 Dashboard with the habilities to check, create, update and delete Tasks.
 
-![Aquí la descripción de la imagen por si no carga](./readme_images/dashboard.jpg)
+![Screenshot](./readme_images/dashboard.jpg)
+
+Live Demo [aquí](https://alrus-ravn-challengue.onrender.com/).
 
 ## Setup/Running instructions
 
