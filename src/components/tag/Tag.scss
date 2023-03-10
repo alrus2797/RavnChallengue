@@ -1,0 +1,51 @@
+@use '../../styles/variables';
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    gap: 8px;
+    min-width: 92px;
+    height: 32px;
+    border-radius: 4px;
+
+}
+
+.tag-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+}
+
+.tag.red {
+    background: rgba($color: variables.$red, $alpha: 0.1);
+    color: variables.$red;
+}
+
+.tag.blue {
+    background: rgba($color: variables.$blue, $alpha: 0.1);
+    color: variables.$blue;
+}
+
+.tag.yellow {
+    background: rgba($color: variables.$yellow, $alpha: 0.1);
+    color: variables.$yellow;
+}
+
+.tag.green {
+    background: rgba($color: variables.$green, $alpha: 0.1);
+    color: variables.$green;
+}
+
+.tag.white {
+    background: rgba($color: variables.$white, $alpha: 0.1);
+    color: variables.$white;
+}

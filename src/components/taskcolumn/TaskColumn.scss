@@ -1,0 +1,21 @@
+.task-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 348px;
+
+}
+
+.column-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 348px;
+    height: 32px;
+}

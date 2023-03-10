@@ -1,0 +1,87 @@
+.task-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 348px;
+    height: 208px;
+
+    background: #2C2F33;
+    border-radius: 8px;
+}
+
+.task-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 8px;
+
+    width: 316px;
+    height: 32px;
+}
+
+.task-card-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+}
+
+.task-card-timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 316px;
+    height: 32px;
+}
+
+.task-card-points{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.75px;
+}
+
+.tag-list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 203px;
+    height: 32px;
+}
+
+.task-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 316px;
+    height: 32px;
+}
+
+.user-avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}

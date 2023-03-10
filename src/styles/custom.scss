@@ -1,0 +1,27 @@
+$body-bg: #111111;
+$body-color: #ffffff;
+$body-font-family: 'Roboto', sans-serif;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.1) gray;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
+

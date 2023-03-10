@@ -4,8 +4,11 @@
     padding: 0px;
     
     position: absolute;
-    width: 1108px;
+    width: calc(100vw - 296px - 36px);
     height: 704px;
     left: 296px;
     top: 200px;
+
+    overflow-x: auto;
+    overflow-y: auto;
 }
